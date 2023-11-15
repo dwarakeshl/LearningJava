@@ -2,6 +2,7 @@ package AmusementParkRide;
 
 import java.util.Scanner;
 
+//Main class
 public class RideMain {
 
 	public static void main(String[] args) {

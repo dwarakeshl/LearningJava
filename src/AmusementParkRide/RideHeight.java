@@ -6,8 +6,8 @@ public class RideHeight {
 
 	// Check if height is within the allowed range
 	// Data tested with integer values 89, 90, 172 200 and 201
-	public void checkHeight() {
 
+	public void checkHeight() {
 		if (height >= 90 && height <= 200) {
 			System.out.println("You are allowed to ride!");
 		} else {

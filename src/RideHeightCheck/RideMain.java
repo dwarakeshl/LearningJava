@@ -1,4 +1,4 @@
-package AmusementParkRide;
+package RideHeightCheck;
 
 import java.util.Scanner;
 

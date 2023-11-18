@@ -1,4 +1,4 @@
-package AmusementParkRide;
+package RideHeightCheck;
 
 //Template class
 public class RideHeight {

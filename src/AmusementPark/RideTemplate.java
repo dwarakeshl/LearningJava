@@ -15,6 +15,7 @@ public class RideTemplate {
 		for (currentCapacity = 1; currentCapacity <= maxCapacity; currentCapacity++) {
 			System.out.println("Enter the height of the person in centimeters:");
 			height = scanner.nextInt();
+			scanner.nextLine();
 			// Check if height is within the allowed range	
 		if (height >= minHeight && height <= maxHeight) {
 			System.out.println("Person with height " + height + " cm added to the ride. Current capacity: " + currentCapacity + "/" + maxCapacity);

@@ -2,11 +2,7 @@ package linkedin;
 
 public class Main {
 	public static void main(String[] args) {
-	Template x = new Template();
-	
-	
-		
-
-		
+	Template object = new Template();
+	object.easyapply();	
 	}
 }

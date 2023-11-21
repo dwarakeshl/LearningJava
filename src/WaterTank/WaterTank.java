@@ -1,4 +1,4 @@
-package WaterTank;
+package waterTank;
 
 //Template Class
 public class WaterTank {

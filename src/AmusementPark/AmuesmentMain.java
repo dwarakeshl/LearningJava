@@ -1,4 +1,4 @@
-package AmusementPark;
+package amusementPark;
 //Main Class
 public class AmuesmentMain {
 

@@ -1,4 +1,4 @@
-package LicenseEligibility;
+package licenseEligibility;
 
 public class LicenseAuthority {
 	int age;

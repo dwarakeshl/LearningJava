@@ -1,4 +1,4 @@
-package AmusementPark;
+package amusementPark;
 
 import java.util.Scanner;
 //Template Class

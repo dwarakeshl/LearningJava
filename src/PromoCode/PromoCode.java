@@ -1,4 +1,4 @@
-package PromoCode;
+package promoCode;
 
 public class PromoCode {
 	double price;

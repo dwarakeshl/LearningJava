@@ -1,4 +1,4 @@
-package WaterTank;
+package waterTank;
 //Main Class
 public class WaterTankMain {
 

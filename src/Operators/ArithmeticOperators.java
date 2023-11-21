@@ -1,4 +1,4 @@
-package Operators;
+package operators;
 
 public class ArithmeticOperators {
 	int num1, num2;

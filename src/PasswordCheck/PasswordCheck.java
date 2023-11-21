@@ -1,4 +1,4 @@
-package PasswordCheck;
+package passwordCheck;
 
 import java.util.Scanner;
 

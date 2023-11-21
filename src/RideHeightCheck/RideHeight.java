@@ -1,4 +1,4 @@
-package RideHeightCheck;
+package rideHeightCheck;
 
 //Template class
 public class RideHeight {

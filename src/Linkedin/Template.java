@@ -1,4 +1,4 @@
-package Linkedin;
+package linkedin;
 
 public class Template {
 	String firstName;

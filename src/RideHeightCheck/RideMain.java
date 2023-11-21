@@ -1,4 +1,4 @@
-package RideHeightCheck;
+package rideHeightCheck;
 
 import java.util.Scanner;
 

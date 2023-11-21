@@ -1,4 +1,4 @@
-package LicenseEligibility;
+package licenseEligibility;
 
 //Main class to run the program
 public class LicenseMain {

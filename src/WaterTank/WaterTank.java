@@ -3,22 +3,22 @@ package waterTank;
 //Template Class
 public class WaterTank {
 	// constants for keeping tank and bucket capacities
-	int maxCapacity = 100;
-	int bucketCapacity = 10;
+	int maxCapacity;
+	int bucketCapacity;
+	int cutOff;
 	// variable for keeping current water level in the tank
-	int currentLevel = 0;
+	int currentLevel;
 
 	// method to fill the tank
 	public void fillTank() {
-		for (int i = 0; i < maxCapacity / bucketCapacity; i++) {
-			// to check and stop the tank from overflowing
-			if (currentLevel + bucketCapacity > maxCapacity) {
-				break;
-			}
-			// fill the tank with the bucket capacity
-			currentLevel += bucketCapacity;
+		for (currentLevel = 0; currentLevel <= cutOff; currentLevel+= bucketCapacity) {
 			System.out.println("Filled the tank with " + bucketCapacity + " litres. Current water level: "
 					+ currentLevel + " litres");
-		}
+			// to check and stop the tank from overflowing
+			if (currentLevel == cutOff) {
+				System.out.println("Tank will overflow. Stop filling");
+				break;
+			}
+	}
 	}
 }

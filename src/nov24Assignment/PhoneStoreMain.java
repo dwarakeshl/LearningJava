@@ -1,5 +1,6 @@
 package nov24Assignment;
 // Part 1 : Write a program which when given a phone brand name, shows all the available products present in that category. Please use the below table to create list of products for each category.
+
 //Part 2:  After displaying all the available products, ask user to enter one product name.  
 //Ensure user enters one of the displayed names.
 // If user enters a name which is present in list, print  “product selected is : name of product “ 
@@ -15,9 +16,9 @@ package nov24Assignment;
 public class PhoneStoreMain {
 
 	public static void main(String[] args) {
-		
-        PhoneStore phoneStore = new PhoneStore();
-        phoneStore.displayProducts();
-        
-    }
+
+		PhoneStore phoneStore = new PhoneStore();
+		phoneStore.displayProducts();
+
+	}
 }

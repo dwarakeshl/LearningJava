@@ -90,5 +90,6 @@ public class Main {
 		}
 		System.out.println("Too many unsuccessful attempts. Exiting.");
 		scanner.close();
+		System.exit(0);
 	}
 }

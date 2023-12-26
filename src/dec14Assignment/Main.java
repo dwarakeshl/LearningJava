@@ -123,6 +123,10 @@ public class Main {
 		System.out.println("Too many unsuccessful attempts. Exiting.");
 		// Closing the scanner to prevent resource leakage.
 		scanner.close();
+<<<<<<< HEAD
 		System.exit(0); // Exiting the program if all three attempts are unsuccessful.
+=======
+		System.exit(0);
+>>>>>>> a7cfd4713a8d36fef55e03bab064794d4ca095b7
 	}
 }

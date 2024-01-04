@@ -1,12 +1,16 @@
 package dec22Assignment;
 
+//Child class representing SunsetCruise details
 public class SunsetCruise extends CruiseShip {
-    public SunsetCruise() {
-        super("Sunset Cruise", 52.99, 15.99, 0.00, 1);
-    }
+	public SunsetCruise() {
+		// Constructor setting specific details for SunsetCruise
+		super("Sunset Cruise", 52.99, 15.99, 1);
+	}
 
-    @Override
-    public void displayCruiseDetails() {
-        super.displayCruiseDetails();
-    }
+	// Override method to display cruise details
+	@Override
+	public void displayCruiseDetails() {
+		// Call the parent class method to display basic details
+		super.displayCruiseDetails();
+	}
 }
